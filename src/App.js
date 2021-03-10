@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import { render } from "react-dom";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +11,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import LeagueDetails from './components/LeagueDetails/LeagueDetails';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faYoutube } from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 import linkedin from './icons/linkedin-in-brands.svg';
 import github from './icons/github-brands.svg';
 
