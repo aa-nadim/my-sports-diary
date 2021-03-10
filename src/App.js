@@ -23,8 +23,8 @@ function App() {
         <div>
           <div className="d-flex justify-content-around p-3 mb-2 bg-success">
             <Link to="/"><FontAwesomeIcon icon={faHome}/></Link>  
-            <a href="https://www.linkedin.com/in/aa-nadim/"><img className="linkedin" src={linkedin} alt=""/></a>  
-            <a href="https://github.com/aa-nadim"><img className="github" src={github} alt=""/></a>
+            <a href="https://www.linkedin.com/in/aa-nadim/"><img className="linkedin" src={linkedin} alt="LinkedIn"/></a>  
+            <a href="https://github.com/aa-nadim"><img className="github" src={github} alt="GitHub"/></a>
           </div>
           <div>
           <Switch>

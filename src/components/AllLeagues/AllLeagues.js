@@ -25,7 +25,7 @@ const AllLeague = (props) => {
     return (
         <div className="card-group leagueComponent">
                 <div className="card" style={divStyle}>
-                    <img className="card-img-top leaguePoster" src={leagues.strPoster}></img>
+                    <img className="card-img-top leaguePoster" src={leagues.strPoster} alt="League Poster"></img>
                     <div className="card-body">
                         <h5 className="card-title">{strLeague}</h5>
                         <p>Sport type: {strSport}</p>

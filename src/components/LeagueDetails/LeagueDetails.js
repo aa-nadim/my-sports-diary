@@ -23,9 +23,9 @@ const LeagueDetails = () => {
     }
     return (
         <div>
-            <img className="genderImage" src={image} alt=""/>
+            <img className="genderImage" src={image} alt="GenderImage"/>
             <div>
-            <img src={leagueDetails.strBadge} alt=""/>
+            <img src={leagueDetails.strBadge} alt="LeagueImage"/>
                 <h3 className="text-success">Country: {leagueDetails.strCountry}</h3>
                 <p>{leagueDetails.strDescriptionEN}</p>
                 <p>{leagueDetails.strDescriptionFR}</p>
